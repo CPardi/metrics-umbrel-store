@@ -1,9 +1,9 @@
 manifestVersion: 1
 id: metrics-node-exporter
-category: metrics
+category: developer
 name: "Metrics: Node Exporter"
 version: "1.8.2"
-tagline: Prometheus exporter for hardware and OS metrics exposed by *NIX kernels, written in Go with pluggable metric collectors.
+tagline: Prometheus exporter for hardware and OS metrics exposed by *NIX kernels
 icon: https://raw.githubusercontent.com/CPardi/metrics-umbrels-store/refs/heads/master/logos/metrics-node-exporter.svg
 description: >-
   This one
