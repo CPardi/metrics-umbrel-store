@@ -18,6 +18,6 @@ The Apps can be installed by adding this repository as a community App Store in 
 
  - Go to the App Store tab
  - Click the `...` in the top right corner and then "Community App Stores"
- - Add https://gitlab.com/ChriPar/metrics-umbrel-store.git in the URL field and click `Add`
+ - Add https://github.com/CPardi/metrics-umbrels-store.git in the URL field and click `Add`
  - "Metrics Community App Store" should now be visible below the `Add` button, click `Open`
  - Install the desired Apps as you would normally
