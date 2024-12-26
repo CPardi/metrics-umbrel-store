@@ -1,6 +1,6 @@
 # Metrics Umbrel App Store
 
-[![Lints apps](https://github.com/CPardi/metrics-umbrels-store/actions/workflows/lint.yml/badge.svg)](https://github.com/CPardi/metrics-umbrels-store/actions/workflows/lint.yml)
+[![Lints apps](https://github.com/CPardi/metrics-umbrel-store/actions/workflows/lint.yml/badge.svg)](https://github.com/CPardi/metrics-umbrel-store/actions/workflows/lint.yml)
 
 This repository contains the Metrics App Store for the Umbrel OS. This is a community App Store containing Apps for
 providing Prometheus exporters for metrics collection.
@@ -18,6 +18,6 @@ The Apps can be installed by adding this repository as a community App Store in 
 
  - Go to the App Store tab
  - Click the `...` in the top right corner and then "Community App Stores"
- - Add https://github.com/CPardi/metrics-umbrels-store.git in the URL field and click `Add`
+ - Add https://github.com/CPardi/metrics-umbrel-store.git in the URL field and click `Add`
  - "Metrics Community App Store" should now be visible below the `Add` button, click `Open`
  - Install the desired Apps as you would normally

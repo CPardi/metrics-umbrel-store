@@ -4,7 +4,7 @@ category: developer
 name: "Metrics: Bitcoin Exporter"
 version: "0.7.0"
 tagline: Prometheus exporter for Bitcoin Core nodes written in python and packaged for running as a container
-icon: https://raw.githubusercontent.com/CPardi/metrics-umbrels-store/refs/heads/master/logos/metrics-bitcoin-exporter.svg
+icon: https://raw.githubusercontent.com/CPardi/metrics-umbrel-store/refs/heads/master/logos/metrics-bitcoin-exporter.svg
 description: >-
   This one
 developer: jvstein
@@ -12,7 +12,7 @@ website: https://github.com/jvstein/bitcoin-prometheus-exporter/issues
 dependencies:
   - bitcoin
 repo: https://github.com/jvstein/bitcoin-prometheus-exporter
-support: https://github.com/CPardi/metrics-umbrels-store/issues
+support: https://github.com/CPardi/metrics-umbrel-store/issues
 port: 9332
 gallery:
   - 1.jpg
@@ -23,4 +23,4 @@ path: "metrics"
 defaultUsername: ""
 defaultPassword: ""
 submitter: CPardi
-submission: https://github.com/CPardi/metrics-umbrels-store
+submission: https://github.com/CPardi/metrics-umbrel-store

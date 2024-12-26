@@ -4,7 +4,7 @@ category: developer
 name: "Metrics: Node Exporter"
 version: "1.8.2"
 tagline: Prometheus exporter for hardware and OS metrics exposed by *NIX kernels
-icon: https://raw.githubusercontent.com/CPardi/metrics-umbrels-store/refs/heads/master/logos/metrics-node-exporter.svg
+icon: https://raw.githubusercontent.com/CPardi/metrics-umbrel-store/refs/heads/master/logos/metrics-node-exporter.svg
 description: >-
   This one
 developer: prometheus
@@ -22,4 +22,4 @@ path: "metrics"
 defaultUsername: ""
 defaultPassword: ""
 submitter: CPardi
-submission: https://github.com/CPardi/metrics-umbrels-store
+submission: https://github.com/CPardi/metrics-umbrel-store
