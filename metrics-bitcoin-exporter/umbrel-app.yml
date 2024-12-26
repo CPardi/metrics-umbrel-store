@@ -4,7 +4,7 @@ category: metrics
 name: "Metrics: Bitcoin Exporter"
 version: "0.7.0"
 tagline: A Prometheus exporter for Bitcoin Core nodes written in python and packaged for running as a container.
-icon: https://gitlab.com/ChriPar/metrics-umbrel-store/-/raw/master/logos/metrics-bitcoin-exporter.svg
+icon: https://raw.githubusercontent.com/CPardi/metrics-umbrels-store/refs/heads/master/logos/metrics-bitcoin-exporter.svg
 description: >-
   This one
 developer: jvstein

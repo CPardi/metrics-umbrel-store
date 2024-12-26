@@ -4,7 +4,7 @@ category: metrics
 name: "Metrics: Node Exporter"
 version: "1.8.2"
 tagline: Prometheus exporter for hardware and OS metrics exposed by *NIX kernels, written in Go with pluggable metric collectors.
-icon: https://gitlab.com/ChriPar/metrics-umbrel-store/-/raw/master/logos/metrics-node-exporter.svg
+icon: https://raw.githubusercontent.com/CPardi/metrics-umbrels-store/refs/heads/master/logos/metrics-node-exporter.svg
 description: >-
   This one
 developer: prometheus
