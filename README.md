@@ -2,8 +2,7 @@
 
 [![Lints apps](https://github.com/CPardi/metrics-umbrel-store/actions/workflows/lint.yml/badge.svg)](https://github.com/CPardi/metrics-umbrel-store/actions/workflows/lint.yml)
 
-This repository contains the Metrics App Store for the Umbrel OS. This is a community App Store containing Apps for
-providing Prometheus exporters for metrics collection.
+This repository contains the Metrics App Store for the Umbrel OS. This is a community App Store containing Prometheus exporters to provide metrics.
 
 ## Apps
 
