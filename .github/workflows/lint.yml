@@ -14,7 +14,4 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - uses: sharknoon/umbrel-app-linter-action@v1
-        with:
-          github-token: ${{ secrets.GITHUB_TOKEN }}
-          base: "master"
-          head-sha: ${{ github.sha }}
+        
