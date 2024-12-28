@@ -1,8 +1,21 @@
 #!/usr/bin/env bash
 set -euo pipefail
 
-echo "Update 'daemon.json'"
-echo '{ "metrics-addr": "127.0.0.1:9323" }' > '/etc/docker/daemon.json'
+file='/etc/docker/daemon.json'
 
-echo "Restart service 'docker'"
+if [ -f $file ] && [ -n `jq '."metrics-addr"' "$file"` ]; then
+  echo '"metrics-addr" is already set'
+  exit 0
+fi
+
+echo 'Ensuring "metrics-addr" is set...'
+if [ -f $file ]; then
+  contents=`cat "$file"`
+else
+  contents="{}"
+fi
+
+echo $contents | jq '. += {"metrics-addr":"127.0.0.1:9323"}' > "$file"
+
+echo "Restarting service 'docker'..."
 systemctl restart docker
