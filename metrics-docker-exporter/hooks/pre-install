@@ -1,0 +1,8 @@
+#!/usr/bin/env bash
+set -euo pipefail
+
+echo "Update 'daemon.json'"
+echo '{ "metrics-addr": "127.0.0.1:9323" }' > '/etc/docker/daemon.json'
+
+echo "Restart service 'docker'"
+systemctl restart docker

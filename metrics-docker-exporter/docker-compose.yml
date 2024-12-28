@@ -1,0 +1,7 @@
+services:
+  app_proxy:
+    network_mode: host
+    environment:
+      APP_HOST: localhost
+      APP_PORT: 9323
+      PROXY_AUTH_WHITELIST: "/metrics"

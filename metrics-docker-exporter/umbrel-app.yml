@@ -1,0 +1,25 @@
+manifestVersion: 1.1
+id: metrics-docker-exporter
+category: developer
+name: "Metrics: Docker Exporter"
+version: "1.8.2"
+tagline: Prometheus exporter for hardware and OS metrics exposed by *NIX kernels
+icon: https://raw.githubusercontent.com/CPardi/metrics-umbrel-store/refs/heads/master/logos/metrics-node-exporter.svg
+description: >-
+  This one
+developer: docker
+website: https://www.docker.com
+dependencies: [ ]
+repo: https://github.com/prometheus/node_exporter
+support: https://github.com/prometheus/node_exporter/issues
+port: 9101
+gallery:
+  - 1.jpg
+  - 2.jpg
+  - 3.jpg
+  - 4.jpg
+path: "metrics"
+defaultUsername: ""
+defaultPassword: ""
+submitter: CPardi
+submission: https://github.com/CPardi/metrics-umbrel-store
