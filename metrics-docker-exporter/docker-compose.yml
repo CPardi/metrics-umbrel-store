@@ -1,0 +1,7 @@
+services:
+  app_proxy:
+    network_mode: host
+    environment:
+      APP_HOST: 127.0.0.1
+      APP_PORT: ${APP_METRICS_PORT}
+      PROXY_AUTH_WHITELIST: "/metrics"

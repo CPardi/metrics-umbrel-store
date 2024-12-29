@@ -1,0 +1,25 @@
+manifestVersion: 1.1
+id: metrics-docker-exporter
+category: developer
+name: "Metrics: Docker Exporter"
+version: "1.8.2"
+tagline: Prometheus exporter for metrics exposed by the Docker daemon
+icon: https://raw.githubusercontent.com/CPardi/metrics-umbrel-store/refs/heads/master/logos/metrics-docker-exporter.svg
+description: >-
+  This one
+developer: docker
+website: https://www.docker.com
+dependencies: [ ]
+repo: ""
+support: https://www.docker.com/support/
+port: 9101
+gallery:
+  - 1.jpg
+  - 2.jpg
+  - 3.jpg
+  - 4.jpg
+path: "metrics"
+defaultUsername: ""
+defaultPassword: ""
+submitter: CPardi
+submission: https://github.com/CPardi/metrics-umbrel-store/pull/11
