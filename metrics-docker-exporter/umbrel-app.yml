@@ -3,15 +3,15 @@ id: metrics-docker-exporter
 category: developer
 name: "Metrics: Docker Exporter"
 version: "1.8.2"
-tagline: Prometheus exporter for hardware and OS metrics exposed by *NIX kernels
-icon: https://raw.githubusercontent.com/CPardi/metrics-umbrel-store/refs/heads/master/logos/metrics-node-exporter.svg
+tagline: Prometheus exporter for metrics exposed by the Docker daemon
+icon: https://raw.githubusercontent.com/CPardi/metrics-umbrel-store/refs/heads/master/logos/metrics-docker-exporter.svg
 description: >-
   This one
 developer: docker
 website: https://www.docker.com
 dependencies: [ ]
-repo: https://github.com/prometheus/node_exporter
-support: https://github.com/prometheus/node_exporter/issues
+repo: ""
+support: https://www.docker.com/support/
 port: 9101
 gallery:
   - 1.jpg
