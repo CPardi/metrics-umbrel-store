@@ -24,7 +24,7 @@ repo: ""
 support: https://www.docker.com/support/
 port: 9101
 gallery:
-  - https://raw.githubusercontent.com/CPardi/metrics-umbrel-store/0a5d529e618ee9c593f5569c0f2524d6af05abff/screenshots/metrics-docker-exporter/1.svg
+  - https://raw.githubusercontent.com/CPardi/metrics-umbrel-store/refs/heads/fix-description-and-gallery/screenshots/metrics-docker-exporter/1.jpg
 path: "metrics"
 defaultUsername: ""
 defaultPassword: ""
