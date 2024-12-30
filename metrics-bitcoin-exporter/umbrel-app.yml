@@ -15,10 +15,7 @@ repo: https://github.com/jvstein/bitcoin-prometheus-exporter
 support: https://github.com/CPardi/metrics-umbrel-store/issues
 port: 9332
 gallery:
-  - 1.jpg
-  - 2.jpg
-  - 3.jpg
-  - 4.jpg
+  - https://raw.githubusercontent.com/CPardi/metrics-umbrel-store/refs/heads/fix-description-and-gallery/screenshots/metrics-bitcoin-exporter/1.jpg
 path: "metrics"
 defaultUsername: ""
 defaultPassword: ""
