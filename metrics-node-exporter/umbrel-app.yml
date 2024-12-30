@@ -14,7 +14,7 @@ repo: https://github.com/prometheus/node_exporter
 support: https://github.com/prometheus/node_exporter/issues
 port: 9100
 gallery:
-  - https://raw.githubusercontent.com/CPardi/metrics-umbrel-store/refs/heads/fix-description-and-gallery/screenshots/metrics-node-exporter/1.jpg
+  - https://raw.githubusercontent.com/CPardi/metrics-umbrel-store/refs/heads/master/screenshots/metrics-node-exporter/1.jpg
 path: "metrics"
 defaultUsername: ""
 defaultPassword: ""
