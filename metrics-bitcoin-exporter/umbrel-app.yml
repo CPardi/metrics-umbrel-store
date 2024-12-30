@@ -6,7 +6,7 @@ version: "0.7.0"
 tagline: Prometheus exporter for Bitcoin Core nodes written in python and packaged for running as a container
 icon: https://raw.githubusercontent.com/CPardi/metrics-umbrel-store/refs/heads/master/logos/metrics-bitcoin-exporter.svg
 description: >-
-  This one
+  Prometheus exporter for Bitcoin Core nodes written in python and packaged for running as a container
 developer: jvstein
 website: https://github.com/jvstein/bitcoin-prometheus-exporter/issues
 dependencies:

@@ -3,21 +3,28 @@ id: metrics-docker-exporter
 category: developer
 name: "Metrics: Docker Exporter"
 version: "1.8.2"
-tagline: Prometheus exporter for metrics exposed by the Docker daemon
+tagline: Prometheus exporter of metrics exposed by the Docker daemon
 icon: https://raw.githubusercontent.com/CPardi/metrics-umbrel-store/refs/heads/master/logos/metrics-docker-exporter.svg
 description: >-
-  This one
+  Prometheus exporter of metrics exposed by the Docker daemon.
+
+  ⚠️ A restart of Umbrel's docker daemon is required as part of the installation process. Installation is not recommended 
+  while syncing other apps.
+
+  ⚠️ The available metrics and the names of those metrics are in active development and may change 
+  at any time*. 
+  
+  
+  [*](https://docs.docker.com/engine/daemon/prometheus/)
+
 developer: docker
-website: https://www.docker.com
+website: https://docs.docker.com/engine/daemon/prometheus/
 dependencies: [ ]
 repo: ""
 support: https://www.docker.com/support/
 port: 9101
 gallery:
-  - 1.jpg
-  - 2.jpg
-  - 3.jpg
-  - 4.jpg
+  - https://raw.githubusercontent.com/CPardi/metrics-umbrel-store/refs/heads/master/screenshots/metrics-docker-exporter/1.jpg
 path: "metrics"
 defaultUsername: ""
 defaultPassword: ""
