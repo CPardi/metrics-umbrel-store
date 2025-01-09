@@ -1,7 +1,7 @@
 name: Lints apps
 
 on:
-  push:
+  pull_request:
     branches:
       - master
 
@@ -11,7 +11,3 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - uses: sharknoon/umbrel-app-linter-action@v1
-        with:
-          github-token: ${{ secrets.GITHUB_TOKEN }}
-          base: "3af708c9"
-          head-sha: ${{ github.sha }}
