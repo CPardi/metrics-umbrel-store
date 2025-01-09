@@ -8,7 +8,7 @@
    version="1.1"
    id="svg1"
    xml:space="preserve"
-   inkscape:version="1.4 (e7c3feb100, 2024-10-09)"
+   inkscape:version="1.3.2 (091e20ef0f, 2023-11-25)"
    sodipodi:docname="1.svg"
    inkscape:export-filename="1.jpg"
    inkscape:export-xdpi="96"
@@ -28,8 +28,8 @@
      inkscape:deskcolor="#d1d1d1"
      inkscape:document-units="mm"
      inkscape:zoom="0.40567357"
-     inkscape:cx="907.1333"
-     inkscape:cy="823.32207"
+     inkscape:cx="1153.6369"
+     inkscape:cy="632.28176"
      inkscape:window-width="1536"
      inkscape:window-height="795"
      inkscape:window-x="0"
@@ -39,13 +39,13 @@
      id="defs1"><linearGradient
        id="linearGradient4"
        inkscape:collect="always"><stop
-         style="stop-color:#393939;stop-opacity:1;"
+         style="stop-color:#2c2c2c;stop-opacity:1;"
          offset="0"
          id="stop5" /><stop
          style="stop-color:#393939;stop-opacity:0.9254902;"
          offset="0.41343901"
          id="stop7" /><stop
-         style="stop-color:#393939;stop-opacity:0.50150239;"
+         style="stop-color:#9e9e9e;stop-opacity:1;"
          offset="1"
          id="stop6" /></linearGradient><linearGradient
        id="swatch3"
