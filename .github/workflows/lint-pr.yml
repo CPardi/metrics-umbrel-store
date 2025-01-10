@@ -7,7 +7,7 @@ on:
 
 jobs:
   lint-apps:
-    name: Lint apps
+    name: Lint apps (Partial)
     runs-on: ubuntu-latest
     steps:
       - uses: sharknoon/umbrel-app-linter-action@v1
