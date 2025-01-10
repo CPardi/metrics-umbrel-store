@@ -1,0 +1,13 @@
+name: Lints apps (PR)
+
+on:
+  pull_request:
+    branches:
+      - master
+
+jobs:
+  lint-apps:
+    name: Lint apps (Partial)
+    runs-on: ubuntu-latest
+    steps:
+      - uses: sharknoon/umbrel-app-linter-action@v1
