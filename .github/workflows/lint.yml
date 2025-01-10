@@ -1,6 +1,7 @@
 name: Lints apps
 
 on:
+  workflow_dispatch:
   push:
     branches:
       - master
