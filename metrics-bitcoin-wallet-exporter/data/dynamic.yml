@@ -1,0 +1,26 @@
+http:
+  middlewares:
+    add-wallet-to-path:
+      replacePath:
+        path: "/wallet/metrics-bitcoin-wallet-exporter"
+    add-keypoololdest-to-body:
+      plugin:
+        plugin-rewritebody:
+          lastModified: "true"
+          rewrites:
+            - regex: '"keypoolsize"'
+              replacement: '"keypoololdest": 0, "keypoolsize"'
+  routers:
+    Router-1:
+      entryPoints:
+        - "web"
+      rule: "PathPrefix(`/`)"
+      service: "proxy-service"
+      middlewares:
+        - add-wallet-to-path
+        - add-keypoololdest-to-body
+  services:
+    proxy-service:
+      loadBalancer:
+        servers:
+          - url: http://{{ env "rpchost" }}:{{ env "rpcport" }}
