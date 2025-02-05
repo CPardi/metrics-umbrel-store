@@ -3,7 +3,7 @@ id: metrics-bitcoin-wallet-exporter
 category: developer
 name: "Metrics: Bitcoin Wallet Exporter"
 version: "0.1"
-tagline: Bitcoind metrics Prometheus exporter.
+tagline: Produce blockchain, wallet and addresses metrics
 icon: https://raw.githubusercontent.com/CPardi/metrics-umbrel-store/refs/heads/master/logos/metrics-bitcoin-wallet-exporter.svg
 description: >-
   Produce blockchain, wallet and addresses metrics. Most relevant metrics are:
@@ -102,4 +102,4 @@ path: "metrics"
 defaultUsername: ""
 defaultPassword: ""
 submitter: CPardi
-submission: https://github.com/CPardi/metrics-umbrel-store/pull/12
+submission: https://github.com/CPardi/metrics-umbrel-store/pull/17
