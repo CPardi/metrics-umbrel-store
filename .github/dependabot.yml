@@ -10,7 +10,7 @@ updates:
       - "dependabot"
 
   - package-ecosystem: "docker-compose"
-    directories: "/*/"
+    directories: [ "/*/" ]
     schedule:
       interval: "weekly"
     open-pull-requests-limit: 5
