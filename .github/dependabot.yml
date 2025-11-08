@@ -9,7 +9,7 @@ updates:
       - "dependencies"
       - "dependabot"
 
-  - package-ecosystem: "docker"
+  - package-ecosystem: "docker-compose"
     directory: "/"
     schedule:
       interval: "weekly"
