@@ -1,0 +1,23 @@
+name: Update Umbrel version
+
+on: push
+
+jobs:
+  format-code:
+    runs-on: ubuntu-latest
+
+    permissions:
+      contents: write
+
+    steps:
+      - uses: actions/checkout@v5
+        with:
+          ref: ${{ github.head_ref }}
+      - uses: mikefarah/yq@v4
+        with:
+          cmd: |
+            chmod +x scripts/update-umbrel-version.sh
+            ./scripts/update-umbrel-version.sh
+      - uses: stefanzweifel/git-auto-commit-action@v7
+        with:
+          commit_message: Update versions in umbrel-app.yml
