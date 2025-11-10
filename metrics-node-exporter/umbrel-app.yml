@@ -2,14 +2,14 @@ manifestVersion: 1
 id: metrics-node-exporter
 category: developer
 name: "Metrics: Node Exporter"
-version: "v1.10.2"
+version: "1.8.2"
 tagline: Prometheus exporter for hardware and OS metrics exposed by *NIX kernels
 icon: https://raw.githubusercontent.com/CPardi/metrics-umbrel-store/refs/heads/master/logos/metrics-node-exporter.svg
 description: >-
   Prometheus exporter for hardware and OS metrics exposed by *NIX kernels
 developer: prometheus
 website: https://prometheus.io/docs/guides/node-exporter
-dependencies: []
+dependencies: [ ]
 repo: https://github.com/prometheus/node_exporter
 support: https://github.com/prometheus/node_exporter/issues
 port: 9100
