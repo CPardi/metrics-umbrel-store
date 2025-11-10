@@ -6,7 +6,6 @@ updates:
       interval: "weekly"
     open-pull-requests-limit: 5
     labels:
-      - "dependencies"
       - "dependabot"
     groups:
       github-actions-dependencies:
@@ -18,7 +17,6 @@ updates:
       interval: "weekly"
     open-pull-requests-limit: 5
     labels:
-      - "dependencies"
       - "dependabot"
     groups:
       docker-compose-dependencies:
