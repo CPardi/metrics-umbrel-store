@@ -1,6 +1,6 @@
 #!/bin/sh
 
-name="web"
+name="$1"
 
 find . -type f -name 'umbrel-app.yml' | while read -r file; do
   echo "--- Found: $file"
