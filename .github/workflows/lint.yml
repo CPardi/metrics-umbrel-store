@@ -5,6 +5,8 @@ on:
   push:
     branches:
       - master
+    paths:
+      - '**/umbrel-app.yml'
 
 jobs:
   lint-apps:
