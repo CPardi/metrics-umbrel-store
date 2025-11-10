@@ -3,7 +3,7 @@ name: Update Umbrel version
 on: push
 
 jobs:
-  format-code:
+  update-umbrel-version:
     runs-on: ubuntu-latest
 
     permissions:
