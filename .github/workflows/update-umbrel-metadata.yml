@@ -1,9 +1,12 @@
 name: Update umbrel-app.yml metadata version
 
-on: push
+on:
+  pull_request:
+    types: [opened, synchronize, reopened]
 
 jobs:
   update-umbrel-app:
+    if: github.actor == 'dependabot[bot]'
     runs-on: ubuntu-latest
 
     permissions:
@@ -13,6 +16,6 @@ jobs:
       - uses: actions/checkout@v5
         with:
           ref: ${{ github.head_ref }}
-      - uses: CPardi/update-umbrel-app-action@9db1ee30f30a5117b228916dfdfb3b1706b75635
+      - uses: CPardi/update-umbrel-app-action@000eab82d99e2220e6715b74ee0667a593f48851
         with:
           source_service_name: web
