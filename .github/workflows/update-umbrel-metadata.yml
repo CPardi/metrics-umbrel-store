@@ -13,6 +13,6 @@ jobs:
       - uses: actions/checkout@v5
         with:
           ref: ${{ github.head_ref }}
-      - uses: CPardi/update-umbrel-app-action@ad379752963919ca24aa5d49db2a8cfe96356090
+      - uses: CPardi/update-umbrel-app-action@828c8d727a34b5963e6bc26ae589520de3924753
         with:
           source_service_name: web
