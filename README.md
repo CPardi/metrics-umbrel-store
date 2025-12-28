@@ -6,11 +6,11 @@ This repository contains the Metrics App Store for the Umbrel OS. This is a comm
 
 ## Apps
 
-| App Name                                                                            | Description                                                                                                               | Port |
-|-------------------------------------------------------------------------------------|---------------------------------------------------------------------------------------------------------------------------|------|
-| [Metrics: Node Exporter](https://github.com/prometheus/node_exporter)               | Prometheus exporter for hardware and OS metrics exposed by *NIX kernels, written in Go with pluggable metric collectors.  | 9100 |
-| [Metrics: Docker Exporter](https://docs.docker.com/engine/daemon/prometheus/)       | Prometheus exporter for docker metrics exposed by the daemon                                                              | 9101 |
-| [Metrics: Bitcoin Exporter](https://github.com/jvstein/bitcoin-prometheus-exporter) | Prometheus exporter for Bitcoin Core nodes written in python and packaged for running as a container.                     | 9332 |
+| App Name                                                                            | Description                                                                                                              | Port |
+|-------------------------------------------------------------------------------------|--------------------------------------------------------------------------------------------------------------------------|------|
+| [Metrics: Node Exporter](https://github.com/prometheus/node_exporter)               | Prometheus exporter for hardware and OS metrics exposed by *NIX kernels, written in Go with pluggable metric collectors. | 9100 |
+| [Metrics: Docker Exporter](https://docs.docker.com/engine/daemon/prometheus/)       | Prometheus exporter for docker metrics exposed by the daemon                                                             | 9101 |
+| [Metrics: Bitcoin Exporter](https://github.com/jvstein/bitcoin-prometheus-exporter) | Prometheus exporter for Bitcoin Core nodes written in python and packaged for running as a container.                    | 9102 |
 
 ## How to Install
 

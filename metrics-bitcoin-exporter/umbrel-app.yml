@@ -13,7 +13,7 @@ dependencies:
   - bitcoin
 repo: https://github.com/jvstein/bitcoin-prometheus-exporter
 support: https://github.com/CPardi/metrics-umbrel-store/issues
-port: 9332
+port: 9102
 gallery:
   - https://raw.githubusercontent.com/CPardi/metrics-umbrel-store/refs/heads/master/screenshots/metrics-bitcoin-exporter/1.jpg
 path: "metrics"
