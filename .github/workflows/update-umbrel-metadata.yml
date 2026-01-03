@@ -17,3 +17,5 @@ jobs:
         with:
           ref: ${{ github.head_ref }}
       - uses: CPardi/update-umbrel-app-action@v0
+        with:
+          fallback_service_name: web
