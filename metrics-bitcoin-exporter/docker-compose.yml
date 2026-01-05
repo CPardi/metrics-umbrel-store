@@ -5,7 +5,7 @@ services:
       APP_PORT: 9332
       PROXY_AUTH_WHITELIST: "/metrics"
   web:
-    image: jvstein/bitcoin-prometheus-exporter:v0.7.0@sha256:db9127a8c09325922c74acd39a24f20a3aea36690d461f6cd98f5cfa86b62cec
+    image: jvstein/bitcoin-prometheus-exporter:v0.9.0@sha256:358132b6967554f4d30a43847bfc5fd941719eb257b2820cf8ebd16405733843
     user: 1000:1000
     environment:
       BITCOIN_RPC_HOST: $APP_BITCOIN_NODE_IP
