@@ -6,7 +6,7 @@ on:
 
 jobs:
   update-umbrel-app:
-    if: github.actor == 'dependabot[bot]'
+    if: success() && (github.event.pull_request.user.login == 'dependabot[bot]')
     runs-on: ubuntu-latest
 
     permissions:
